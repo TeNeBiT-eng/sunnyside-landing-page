@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+    header{
+        nav{
+            ul{
+                display: flex !important;
+                align-items: center;
+                column-gap: 2rem;
+            }
+            .bars{
+                display: none;
+            }
+        }
+    }
+}
