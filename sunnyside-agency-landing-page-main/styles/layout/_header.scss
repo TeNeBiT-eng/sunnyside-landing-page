@@ -1,7 +1,4 @@
 header{
-    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-family: $barlow;
@@ -11,8 +8,10 @@ header{
         align-items: center;
         width: 90%;
         margin: 0 auto;
+        position: relative;
         ul{
             display: none;
+            // position: absolute;
             li{
                 a{
                     color: white;

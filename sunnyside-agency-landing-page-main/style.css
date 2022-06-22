@@ -19,9 +19,6 @@
   }
 }
 header {
-  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: "Barlow", sans-serif;
@@ -32,6 +29,7 @@ header nav {
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  position: relative;
 }
 header nav ul {
   display: none;
@@ -49,4 +47,27 @@ header nav ul li a button {
   border: none;
   color: hsl(212deg, 27%, 19%);
   background-color: white;
+}
+
+.section1 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10rem;
+}
+.section1 h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  padding-top: 3rem;
+  letter-spacing: 0.3rem;
+}
+.section1 .arrowDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  transform: translateY(40%);
 }/*# sourceMappingURL=style.css.map */

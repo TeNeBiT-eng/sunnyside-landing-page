@@ -1,0 +1,25 @@
+.section1{
+    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;
+    // background-attachment: fixed;
+    h1{
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 2rem;
+        // width: 90%;
+        // margin: 0 auto;
+        padding-top: 3rem;
+        letter-spacing: .3rem;
+    }
+    .arrowDown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        transform: translateY(40%);
+    }
+}
