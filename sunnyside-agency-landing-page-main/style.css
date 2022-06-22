@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
-  text-decoration: none;
   font-size: 16px;
 }
 
@@ -19,8 +18,10 @@
   }
 }
 header {
+  position: fixed;
+  width: 100%;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 15rem;
   font-family: "Barlow", sans-serif;
 }
 header nav {
@@ -54,14 +55,16 @@ header nav ul li a button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-bottom: 10rem;
+  padding-bottom: 15rem;
+  background-attachment: fixed;
 }
 .section1 h1 {
+  font-family: "Fraunces", serif;
   text-align: center;
   text-transform: uppercase;
   color: white;
   font-size: 2rem;
-  padding-top: 3rem;
+  padding-top: 7rem;
   letter-spacing: 0.3rem;
 }
 .section1 .arrowDown {
@@ -70,4 +73,41 @@ header nav ul li a button {
   align-items: center;
   margin-top: 1rem;
   transform: translateY(40%);
+}
+
+.section2 .img_transform {
+  background-color: hsl(7deg, 67%, 96%);
+  display: flex;
+  flex-direction: column;
+}
+.section2 .img_transform img {
+  width: 100%;
+}
+.section2 .img_transform .transform h3 {
+  font-family: "Fraunces", serif;
+  text-align: center;
+  width: 90%;
+  margin: 2rem auto;
+  font-size: 2rem;
+  color: hsl(212deg, 27%, 19%);
+}
+.section2 .img_transform .transform p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  line-height: 1.7;
+  width: 90%;
+  margin: 0 auto;
+}
+.section2 .img_transform .transform .learnMore {
+  text-align: center;
+  margin-top: 2rem;
+}
+.section2 .img_transform .transform .learnMore a {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: hsl(212deg, 27%, 19%);
+  position: relative;
+}
+.section2 .img_transform .transform .learnMore a img {
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
