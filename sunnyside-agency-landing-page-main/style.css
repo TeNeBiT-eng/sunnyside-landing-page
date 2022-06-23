@@ -21,7 +21,6 @@ header {
   position: fixed;
   width: 100%;
   padding-top: 2rem;
-  padding-bottom: 15rem;
   font-family: "Barlow", sans-serif;
 }
 header nav {
@@ -56,7 +55,6 @@ header nav ul li a button {
   background-size: cover;
   background-position: center;
   padding-bottom: 15rem;
-  background-attachment: fixed;
 }
 .section1 h1 {
   font-family: "Fraunces", serif;
@@ -112,4 +110,56 @@ header nav ul li a button {
 }
 .section2 .img_transform .transform .learnMore a img {
   width: 40%;
+}
+
+.section3 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25rem;
+}
+.section3 .h4_p {
+  transform: translateY(280%);
+}
+.section3 .h4_p h4 {
+  font-family: "Fraunces", serif;
+  color: hsl(167deg, 40%, 24%);
+  font-size: 1.6rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.section3 .h4_p p {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.8rem;
+  color: hsl(167deg, 40%, 24%);
+  text-align: center;
+  line-height: 1.5;
+  width: 87%;
+  margin: 0 auto;
+}
+
+.section4 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25rem;
+}
+.section4 .h4_p {
+  transform: translateY(280%);
+}
+.section4 .h4_p h4 {
+  font-family: "Fraunces", serif;
+  color: hsl(167deg, 40%, 24%);
+  font-size: 1.6rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.section4 .h4_p p {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.8rem;
+  color: hsl(167deg, 40%, 24%);
+  text-align: center;
+  line-height: 1.5;
+  width: 87%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
