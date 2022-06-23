@@ -162,4 +162,56 @@ header nav ul li a button {
   line-height: 1.5;
   width: 87%;
   margin: 0 auto;
+}
+
+.section5 {
+  background-color: hsl(7deg, 67%, 96%);
+}
+.section5 h5 {
+  text-align: center;
+  padding: 4rem 0;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: hsl(232deg, 10%, 55%);
+  font-family: "Fraunces", serif;
+}
+.section5 .testimonialContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+}
+.section5 .testimonialContainer .avatarContainer .avatarImg {
+  display: flex;
+  justify-content: center;
+}
+.section5 .testimonialContainer .avatarContainer .avatarImg img {
+  width: 20%;
+  border-radius: 50%;
+}
+.section5 .testimonialContainer .avatarContainer .textContent p {
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: hsl(213deg, 9%, 39%);
+}
+.section5 .testimonialContainer .avatarContainer .name_post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  padding-top: 2rem;
+}
+.section5 .testimonialContainer .avatarContainer .name_post .name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(212deg, 27%, 19%);
+}
+.section5 .testimonialContainer .avatarContainer .name_post .post {
+  font-family: "Barlow", sans-serif;
+  color: hsl(232deg, 10%, 55%);
 }/*# sourceMappingURL=style.css.map */

@@ -117,3 +117,60 @@
         }
     }
 }
+
+.section5{
+    background-color: hsl(7, 67%, 96%);
+    h5{
+        text-align: center;
+        padding: 4rem 0;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        color: $darkGrayishBlue;
+        font-family: $fraunces;
+    }
+    .testimonialContainer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 4rem;
+        .avatarContainer{
+            .avatarImg{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 20%;
+                    border-radius: 50%;
+                }
+            }
+            .textContent{
+                p{
+                    font-family: $barlow;
+                    text-align: center;
+                    width: 90%;
+                    margin: 0 auto;
+                    padding-top: 2rem;
+                    line-height: 1.5;
+                    font-weight: 600;
+                    color: $veryDarkGrayishBlue;
+                }
+            }
+            .name_post{
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                row-gap: .6rem;
+                padding-top: 2rem;
+                .name{
+                    font-family: $fraunces;
+                    font-weight: 900;
+                    color: $veryDarkDesaturatedBlue;
+                }
+                .post{
+                    font-family: $barlow;
+                    color: $darkGrayishBlue
+                }
+            }
+        }
+    }
+}
