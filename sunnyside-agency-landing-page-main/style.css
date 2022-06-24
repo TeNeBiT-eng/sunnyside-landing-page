@@ -33,25 +33,26 @@ header nav {
   margin: 0 auto;
   position: relative;
 }
-header nav ul {
+header nav .menuLinks {
   position: absolute;
   top: 200%;
-  left: 0%;
+  right: -200%;
   width: 100%;
   padding: 3rem 0;
   background-color: white;
   -webkit-clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
           clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
+  transition: all 500ms ease;
 }
-header nav ul li {
+header nav .menuLinks li {
   padding: 1rem;
   text-align: center;
 }
-header nav ul li a {
+header nav .menuLinks li a {
   color: hsl(213deg, 9%, 39%);
   font-weight: 600;
 }
-header nav ul li a button {
+header nav .menuLinks li a button {
   font-family: "Fraunces", serif;
   font-size: 1rem;
   font-weight: 900;
@@ -61,6 +62,13 @@ header nav ul li a button {
   border: none;
   color: hsl(212deg, 27%, 19%);
   background-color: hsl(51deg, 100%, 49%);
+}
+header nav .bars i {
+  color: #fff;
+}
+
+.activeShow {
+  right: 0 !important;
 }
 
 .section1 {

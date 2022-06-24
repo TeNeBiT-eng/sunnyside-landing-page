@@ -13,11 +13,11 @@ header{
         width: 90%;
         margin: 0 auto;
         position: relative;
-        ul{
+        .menuLinks{
             // display: none;
             position: absolute;
             top: 200%;
-            left: 0%;
+            right: -200%;
             width: 100%;
             padding: 3rem 0;
             background-color: white;
@@ -27,6 +27,7 @@ header{
                 101.64% -1.67%,
                 100% 100%, 0px 100%
               );
+              transition: all 500ms ease;
             li{
                 padding: 1rem;
                 text-align: center;
@@ -47,5 +48,14 @@ header{
                 }
             }
         }
+        .bars{
+            i{
+                color: #fff;
+            }
+        }
     }
+}
+
+.activeShow{
+    right: 0 !important;
 }
