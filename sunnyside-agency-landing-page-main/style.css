@@ -23,6 +23,7 @@ header {
   width: 100%;
   padding-top: 2rem;
   font-family: "Barlow", sans-serif;
+  z-index: 2;
 }
 header nav {
   display: flex;
@@ -33,10 +34,22 @@ header nav {
   position: relative;
 }
 header nav ul {
-  display: none;
+  position: absolute;
+  top: 200%;
+  left: 0%;
+  width: 100%;
+  padding: 3rem 0;
+  background-color: white;
+  -webkit-clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
+          clip-path: polygon(0px 29px, 90.18% 28.5px, 101.64% -1.67%, 100% 100%, 0px 100%);
+}
+header nav ul li {
+  padding: 1rem;
+  text-align: center;
 }
 header nav ul li a {
-  color: white;
+  color: hsl(213deg, 9%, 39%);
+  font-weight: 600;
 }
 header nav ul li a button {
   font-family: "Fraunces", serif;
@@ -47,7 +60,7 @@ header nav ul li a button {
   border-radius: 3rem;
   border: none;
   color: hsl(212deg, 27%, 19%);
-  background-color: white;
+  background-color: hsl(51deg, 100%, 49%);
 }
 
 .section1 {
@@ -72,6 +85,7 @@ header nav ul li a button {
   align-items: center;
   margin-top: 1rem;
   transform: translateY(40%);
+  z-index: 1;
 }
 
 .section2 .img_transform {
