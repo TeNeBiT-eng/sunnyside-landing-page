@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
+  text-decoration: none;
   font-size: 16px;
 }
 
@@ -116,6 +117,7 @@ header nav ul li a button {
   background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 25rem;
 }
 .section3 .h4_p {
@@ -123,7 +125,7 @@ header nav ul li a button {
 }
 .section3 .h4_p h4 {
   font-family: "Fraunces", serif;
-  color: hsl(167deg, 40%, 24%);
+  color: #25564b;
   font-size: 1.6rem;
   text-align: center;
   padding-bottom: 2rem;
@@ -131,7 +133,8 @@ header nav ul li a button {
 .section3 .h4_p p {
   font-family: "Barlow", sans-serif;
   font-size: 0.8rem;
-  color: hsl(167deg, 40%, 24%);
+  font-weight: 500;
+  color: #25564b;
   text-align: center;
   line-height: 1.5;
   width: 87%;
@@ -142,6 +145,7 @@ header nav ul li a button {
   background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 25rem;
 }
 .section4 .h4_p {
@@ -149,7 +153,7 @@ header nav ul li a button {
 }
 .section4 .h4_p h4 {
   font-family: "Fraunces", serif;
-  color: hsl(167deg, 40%, 24%);
+  color: #25564b;
   font-size: 1.6rem;
   text-align: center;
   padding-bottom: 2rem;
@@ -157,7 +161,8 @@ header nav ul li a button {
 .section4 .h4_p p {
   font-family: "Barlow", sans-serif;
   font-size: 0.8rem;
-  color: hsl(167deg, 40%, 24%);
+  font-weight: 500;
+  color: #25564b;
   text-align: center;
   line-height: 1.5;
   width: 87%;
@@ -166,6 +171,7 @@ header nav ul li a button {
 
 .section5 {
   background-color: hsl(7deg, 67%, 96%);
+  padding-bottom: 5rem;
 }
 .section5 h5 {
   text-align: center;
@@ -214,4 +220,47 @@ header nav ul li a button {
 .section5 .testimonialContainer .avatarContainer .name_post .post {
   font-family: "Barlow", sans-serif;
   color: hsl(232deg, 10%, 55%);
+}
+
+footer .sweetners {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+footer .sweetners img {
+  width: 100%;
+}
+footer .footerInfo {
+  background-color: hsl(168deg, 26%, 67%);
+  padding-bottom: 5rem;
+}
+footer .footerInfo .footerLogoImg {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+footer .footerInfo .footerLogoImg img {
+  width: 40vw;
+}
+footer .footerInfo ul {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+footer .footerInfo ul li {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+}
+footer .footerInfo ul li a {
+  color: hsl(168deg, 34%, 41%);
+}
+footer .footerInfo .smContainer {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+footer .footerInfo .smContainer i {
+  font-size: 1.3rem;
+  color: #458c7e;
 }/*# sourceMappingURL=style.css.map */

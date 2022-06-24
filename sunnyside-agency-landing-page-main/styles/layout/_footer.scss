@@ -1,0 +1,45 @@
+footer{
+    .sweetners{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        
+            img{
+                width: 100%;
+            }
+        
+    }
+    .footerInfo{
+        background-color: hsl(168, 26%, 67%);
+        padding-bottom: 5rem;
+        .footerLogoImg{
+            display: flex;
+            justify-content: center;
+            padding: 4rem 0;
+            img{
+                width: 40vw;
+            }
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 5rem;
+            li{
+                font-family: $barlow;
+                font-weight: 500;
+                a{
+                    color: $footer;
+                }
+            }
+        }
+        .smContainer{
+            display: flex;
+            justify-content: center;
+            column-gap: 2rem;
+            i{
+                font-size: 1.3rem;
+                color: #458c7e;
+            }
+        }
+    }
+}

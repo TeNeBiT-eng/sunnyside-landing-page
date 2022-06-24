@@ -70,6 +70,7 @@
     background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding-bottom: 25rem;
     .h4_p{
         transform: translateY(280%);
@@ -83,6 +84,7 @@
         p{
             font-family: $barlow;
             font-size: .8rem;
+            font-weight: 500;
             color: $graphicDesignText;
             text-align: center;
             line-height: 1.5;
@@ -96,6 +98,7 @@
     background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding-bottom: 25rem;
     .h4_p{
         transform: translateY(280%);
@@ -109,6 +112,7 @@
         p{
             font-family: $barlow;
             font-size: .8rem;
+            font-weight: 500;
             color: $graphicDesignText;
             text-align: center;
             line-height: 1.5;
@@ -120,6 +124,7 @@
 
 .section5{
     background-color: hsl(7, 67%, 96%);
+    padding-bottom: 5rem;
     h5{
         text-align: center;
         padding: 4rem 0;
