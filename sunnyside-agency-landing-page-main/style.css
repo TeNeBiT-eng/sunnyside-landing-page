@@ -32,6 +32,11 @@
     border: none;
     color: hsl(212deg, 27%, 19%);
     background-color: white;
+    transition: 0.4s ease;
+  }
+  header nav .menuLinks2 li a button:hover {
+    color: white;
+    background-color: hsla(210deg, 6%, 87%, 0.311);
   }
   header nav .bars {
     display: none;
@@ -403,6 +408,9 @@ header nav .bars i {
   color: hsl(232deg, 10%, 55%);
 }
 
+footer {
+  background-color: hsl(168deg, 26%, 67%);
+}
 footer .sweetners {
   display: grid;
   width: 100%;

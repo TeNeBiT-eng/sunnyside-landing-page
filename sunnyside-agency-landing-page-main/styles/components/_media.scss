@@ -22,6 +22,11 @@
               border: none;
               color: $veryDarkDesaturatedBlue;
               background-color: white;
+              transition: .4s ease;
+              &:hover{
+                color: white;
+                  background-color: hsla(210, 6%, 87%, 0.311);
+              }
             }
           }
         }
