@@ -5,17 +5,63 @@
   list-style-type: none;
   text-decoration: none;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 768px) {
-  header nav ul {
+  header nav .menuLinks {
+    display: none !important;
+  }
+  header nav .menuLinks2 {
     display: flex !important;
     align-items: center;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
   }
+  header nav .menuLinks2 li a {
+    color: white;
+    font-size: 1.2rem;
+  }
+  header nav .menuLinks2 li a button {
+    font-family: "Fraunces", serif;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    border: none;
+    color: hsl(212deg, 27%, 19%);
+    background-color: white;
+  }
   header nav .bars {
     display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .bgImg .section1 {
+    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15rem;
+  }
+  .bgImg .section1 h1 {
+    font-family: "Fraunces", serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem !important;
+    padding-top: 12rem !important;
+    letter-spacing: 0.3rem;
+  }
+
+  .section2 .img_transform {
+    flex-direction: row !important;
+    align-items: center;
+  }
+  .section2 .img_transform img {
+    width: 50% !important;
+    order: 2;
   }
 }
 header {
@@ -32,6 +78,9 @@ header nav {
   width: 90%;
   margin: 0 auto;
   position: relative;
+}
+header nav .menuLinks2 {
+  display: none;
 }
 header nav .menuLinks {
   position: absolute;
@@ -94,6 +143,42 @@ header nav .bars i {
   margin-top: 1rem;
   transform: translateY(40%);
   z-index: 1;
+  -webkit-animation: bounce 2s linear infinite;
+          animation: bounce 2s linear infinite;
+}
+@-webkit-keyframes bounce {
+  20% {
+    transform: translateY(30px);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
+}
+@keyframes bounce {
+  20% {
+    transform: translateY(30px);
+  }
+  40% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  80% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-4px);
+  }
 }
 
 .section2 .img_transform {

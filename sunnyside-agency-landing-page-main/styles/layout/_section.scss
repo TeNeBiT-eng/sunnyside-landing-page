@@ -1,182 +1,200 @@
-.section1{
-    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 15rem;
-    // background-attachment: fixed;
-    h1{
+.section1 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 15rem;
+  // background-attachment: fixed;
+  h1 {
+    font-family: $fraunces;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    padding-top: 7rem;
+    letter-spacing: 0.3rem;
+  }
+  .arrowDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    transform: translateY(40%);
+    z-index: 1;
+    animation: bounce 2s linear infinite;
+    @keyframes bounce {
+      20% {
+        transform: translateY(30px);
+      }
+      40% {
+        transform: translateY(10px);
+      }
+      50% {
+        transform: translateY(30px);
+      }
+      80% {
+        transform: translateY(30px);
+      }
+      90% {
+        transform: translateY(-4px);
+      }
+    }
+  }
+}
+
+.section2 {
+  .img_transform {
+    padding-bottom: 4rem;
+    background-color: hsl(7, 67%, 96%);
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+    .transform {
+      h3 {
         font-family: $fraunces;
         text-align: center;
-        text-transform: uppercase;
-        color: white;
+        width: 90%;
+        margin: 2rem auto;
+        margin-top: 4rem;
         font-size: 2rem;
-        padding-top: 7rem;
-        letter-spacing: .3rem;
+        color: $veryDarkDesaturatedBlue;
+      }
+      p {
+        font-family: $barlow;
+        text-align: center;
+        line-height: 1.7;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .learnMore {
+        text-align: center;
+        margin-top: 2rem;
+        a {
+          font-weight: 900;
+          text-transform: uppercase;
+          color: $veryDarkDesaturatedBlue;
+          position: relative;
+          img {
+            width: 40%;
+          }
+        }
+      }
     }
-    .arrowDown{
+  }
+}
+
+.section3 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 25rem;
+  .h4_p {
+    transform: translateY(280%);
+    h4 {
+      font-family: $fraunces;
+      color: $graphicDesignText;
+      font-size: 1.6rem;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    p {
+      font-family: $barlow;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: $graphicDesignText;
+      text-align: center;
+      line-height: 1.5;
+      width: 87%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.section4 {
+  background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 25rem;
+  .h4_p {
+    transform: translateY(280%);
+    h4 {
+      font-family: $fraunces;
+      color: $graphicDesignText;
+      font-size: 1.6rem;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    p {
+      font-family: $barlow;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: $graphicDesignText;
+      text-align: center;
+      line-height: 1.5;
+      width: 87%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.section5 {
+  background-color: hsl(7, 67%, 96%);
+  padding-bottom: 5rem;
+  h5 {
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: $darkGrayishBlue;
+    font-family: $fraunces;
+  }
+  .testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    .avatarContainer {
+      .avatarImg {
         display: flex;
         justify-content: center;
+        img {
+          width: 20%;
+          border-radius: 50%;
+        }
+      }
+      .textContent {
+        p {
+          font-family: $barlow;
+          text-align: center;
+          width: 90%;
+          margin: 0 auto;
+          padding-top: 2rem;
+          line-height: 1.5;
+          font-weight: 600;
+          color: $veryDarkGrayishBlue;
+        }
+      }
+      .name_post {
+        display: flex;
+        // justify-content: center;
         align-items: center;
-        margin-top: 1rem;
-        transform: translateY(40%);
-        z-index: 1;
-    }
-}
-
-.section2{
-    .img_transform{
-        padding-bottom: 4rem;
-        background-color: hsl(7, 67%, 96%);
-        display: flex;
         flex-direction: column;
-        img{
-            width: 100%;
+        row-gap: 0.6rem;
+        padding-top: 2rem;
+        .name {
+          font-family: $fraunces;
+          font-weight: 900;
+          color: $veryDarkDesaturatedBlue;
         }
-        .transform{
-            h3{
-                font-family: $fraunces;
-                text-align: center;
-                width: 90%;
-                margin: 2rem auto;
-                margin-top: 4rem;
-                font-size: 2rem;
-                color: $veryDarkDesaturatedBlue;
-            }
-            p{
-                font-family: $barlow;
-                text-align: center;
-                line-height: 1.7;
-                width: 90%;
-                margin: 0 auto;
-            }
-            .learnMore{
-                text-align: center;
-                margin-top: 2rem;
-                a{
-                    font-weight: 900;
-                    text-transform: uppercase;
-                    color: $veryDarkDesaturatedBlue;
-                    position: relative;
-                    img{
-                        width: 40%;
-                    }
-                }
-            }
+        .post {
+          font-family: $barlow;
+          color: $darkGrayishBlue;
         }
+      }
     }
-}
-
-.section3{
-    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 25rem;
-    .h4_p{
-        transform: translateY(280%);
-        h4{
-            font-family: $fraunces;
-            color: $graphicDesignText;
-            font-size: 1.6rem;
-            text-align: center;
-            padding-bottom: 2rem;
-        }
-        p{
-            font-family: $barlow;
-            font-size: .8rem;
-            font-weight: 500;
-            color: $graphicDesignText;
-            text-align: center;
-            line-height: 1.5;
-            width: 87%;
-            margin: 0 auto;
-        }
-    }
-}
-
-.section4{
-    background-image: url(/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 25rem;
-    .h4_p{
-        transform: translateY(280%);
-        h4{
-            font-family: $fraunces;
-            color: $graphicDesignText;
-            font-size: 1.6rem;
-            text-align: center;
-            padding-bottom: 2rem;
-        }
-        p{
-            font-family: $barlow;
-            font-size: .8rem;
-            font-weight: 500;
-            color: $graphicDesignText;
-            text-align: center;
-            line-height: 1.5;
-            width: 87%;
-            margin: 0 auto;
-        }
-    }
-}
-
-.section5{
-    background-color: hsl(7, 67%, 96%);
-    padding-bottom: 5rem;
-    h5{
-        text-align: center;
-        padding: 4rem 0;
-        font-size: 1rem;
-        letter-spacing: .1rem;
-        text-transform: uppercase;
-        color: $darkGrayishBlue;
-        font-family: $fraunces;
-    }
-    .testimonialContainer{
-        display: flex;
-        flex-direction: column;
-        row-gap: 4rem;
-        .avatarContainer{
-            .avatarImg{
-                display: flex;
-                justify-content: center;
-                img{
-                    width: 20%;
-                    border-radius: 50%;
-                }
-            }
-            .textContent{
-                p{
-                    font-family: $barlow;
-                    text-align: center;
-                    width: 90%;
-                    margin: 0 auto;
-                    padding-top: 2rem;
-                    line-height: 1.5;
-                    font-weight: 600;
-                    color: $veryDarkGrayishBlue;
-                }
-            }
-            .name_post{
-                display: flex;
-                // justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                row-gap: .6rem;
-                padding-top: 2rem;
-                .name{
-                    font-family: $fraunces;
-                    font-weight: 900;
-                    color: $veryDarkDesaturatedBlue;
-                }
-                .post{
-                    font-family: $barlow;
-                    color: $darkGrayishBlue
-                }
-            }
-        }
-    }
+  }
 }
