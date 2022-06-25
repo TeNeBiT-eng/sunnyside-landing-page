@@ -58,10 +58,50 @@
   .section2 .img_transform {
     flex-direction: row !important;
     align-items: center;
+    padding-bottom: 0 !important;
+  }
+  .section2 .img_transform .egg {
+    order: 2 !important;
   }
   .section2 .img_transform img {
     width: 50% !important;
-    order: 2;
+  }
+  .section2 .img_transform .transform h3, .section2 .img_transform .transform p {
+    text-align: start !important;
+    width: 55% !important;
+  }
+  .section2 .img_transform .transform .learnMore {
+    margin-right: 10%;
+  }
+
+  .section3_section4 {
+    display: flex;
+  }
+  .section3_section4 .section3 {
+    background-attachment: unset !important;
+    padding-bottom: 0 !important;
+  }
+  .section3_section4 .section3 img {
+    display: block;
+    width: 100%;
+  }
+  .section3_section4 .section3 .h4_p {
+    transform: translateY(-200%);
+  }
+  .section3_section4 .section4 {
+    background-attachment: unset !important;
+    padding-bottom: 0 !important;
+  }
+  .section3_section4 .section4 img {
+    display: block;
+    width: 100%;
+  }
+  .section3_section4 .section4 .h4_p {
+    transform: translateY(-200%);
+  }
+
+  .testimonialContainer {
+    flex-direction: row !important;
   }
 }
 header {
@@ -227,6 +267,9 @@ header nav .bars i {
   background-attachment: fixed;
   padding-bottom: 25rem;
 }
+.section3 img {
+  display: none;
+}
 .section3 .h4_p {
   transform: translateY(280%);
 }
@@ -254,6 +297,9 @@ header nav .bars i {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 25rem;
+}
+.section4 img {
+  display: none;
 }
 .section4 .h4_p {
   transform: translateY(280%);
