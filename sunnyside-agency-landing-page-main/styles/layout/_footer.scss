@@ -1,12 +1,21 @@
 footer{
     .sweetners{
         display: grid;
-        grid-template-columns: auto auto;
+        // grid-template-columns: auto auto;
         width: 100%;
-        
-            img{
+        .imgFlex1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .imgFlex{
                 width: 100%;
+                img{
+                    width: 100%;
+                }
             }
+        }
+            // img{
+            //     width: 100%;
+            // }
         
     }
     .footerInfo{

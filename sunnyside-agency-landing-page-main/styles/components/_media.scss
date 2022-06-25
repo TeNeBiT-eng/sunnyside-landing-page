@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   .bgImg {
     .section1 {
       background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
@@ -106,10 +106,47 @@
 
   .testimonialContainer{
     flex-direction: row !important;
+    .avatarContainer{
+     .avatarImg{
+      .thomasImg{
+        max-width: 22% !important;
+      }
+      img{
+        height: 5rem;
+        max-width: 25% !important;
+      }
+     } 
+    }
+  }
+
+  footer{
+    .sweetners{
+
+      .imgFlex1{
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+      }
+    }
+    .footerLogoImg{
+      img{
+        display: block;
+      }
+    }
+    ul{
+      width: 50%;
+      margin: auto;
+    }
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1384px) {
+  .photography{
+    transform: translateY(-223%) !important;
+  }
 }
-@media (min-width: 1024px) {
+@media (min-width: 2000px) {
+    .avatarImg{
+      img {
+        height: 10rem !important;
+      }
+    }
 }
